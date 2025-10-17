@@ -1,18 +1,19 @@
-### Aggregation and grouping using Java Streams
-Write a Java, Python, or JavaScript(JS) program to perform aggregation and grouping pipelines.  For Java use Java streams API, for Python use pandas, for JavaScript use use built-in Array methods or a small CSV parser on the provided data in the CSV file.
-#### Tasks:
-1. Read the data from a CSV file into a collection
-2. Count the population grouped by gender
-3. Find total sales grouped by gender
-4. Find most used payment method
-5. Find day with the most sales
+### Producer Consumer problem
+Write a Java, Python, or JavaScript (JS) program to implement the producer consumer problem.<br />
+#### Task:
+1. Create a source container and populate it with integers and doubles.
+2. Create a destination container that can store both integers and doubles with the same capacity as the source container from task 1.
+3. Create a queue with half the capacity of the source container from task 1.
+4. Implement a Producer that will read numbers from the source container into the queue and notify the consumer when the queue is full.
+5. Create a consumer that will read from the queue into the destination container and notify the producer when the queue is empty.
+6. Write a test to confirm the numbers from the source container have been copied to the destination container.
 
-## How to Run
-1. Extract the zip file
-2. Navigate to the `Level 2 Coding Challenge` directory (Keep this as the root folder)
-3. Run the following commands:
+### How to Run - 
+# Navigate to Assignment 2 directory
+cd "Level 2 Coding Challenge Assignment 2/assignment2"
 
-```
-javac "Level 2 Coding Challenge Assignment 1/assignment1/ShoppingDataAnalyzer.java"
-java -cp "Level 2 Coding Challenge Assignment 1/assignment1" ShoppingDataAnalyzer
-```
+# Compile the Java file
+javac ProducerConsumerSolution.java
+
+# Run the program
+java ProducerConsumerSolution

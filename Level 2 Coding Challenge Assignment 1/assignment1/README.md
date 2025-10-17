@@ -6,13 +6,3 @@ Write a Java, Python, or JavaScript(JS) program to perform aggregation and group
 3. Find total sales grouped by gender
 4. Find most used payment method
 5. Find day with the most sales
-
-## How to Run
-1. Extract the zip file
-2. Navigate to the `Level 2 Coding Challenge` directory (Keep this as the root folder)
-3. Run the following commands:
-
-```
-javac "Level 2 Coding Challenge Assignment 1/assignment1/ShoppingDataAnalyzer.java"
-java -cp "Level 2 Coding Challenge Assignment 1/assignment1" ShoppingDataAnalyzer
-```
